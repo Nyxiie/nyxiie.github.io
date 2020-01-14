@@ -1,90 +1,13 @@
-
 <html>
-
-<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
-
-<script src="../code.jquery.com/jquery-3.3.1.js"></script>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-<link rel="icon" href="favicon.ico"/>
-<script src="function.js"></script>
-
-<div id="mid">
-<p><font color="rebeccapurple">Nyx</font></p>
-<a onclick="keybase()" target="_blank" href="https://keybase.io/nyxer">keybase</a> -
-<a onclick="gba()" target="_blank" href="gba/index.html">gameboy</a> -
-<a onclick="binarylolis()" target="_blank" href="https://binarylolis.xyz">BinaryLolis</a> -
-</div>
-<font face="verdana">
-   <div id="qwertz"><font color="rebeccapurple">SX@ADMIN~#:
-   </font> welcome to SX-UI<br>
-      <font color="rebeccapurple">SX@UI~#:
-   </font> current time
-      <span id="doc_time">date_data</span>
-   </div>
-   <div id="qwertz2">
-   </div>
-</font>
-<a href="http://gmpgev6xjltig5s5zxga6juqam7bjeyvbxnzgawjcjyuwvtvax5geiyd.onion/">Tor-V3</a>
+<head>
+    <style>
+    *{
+        text-align: center;
+        
+    }
+    </style>
+</head>
+<body>
+<img src="seized.png">
 </body>
-<script type="text/javascript">
-      function clock() {
-      var d = new Date();
-      var hours = d.getHours();
-      var minutes = d.getMinutes();
-      var seconds = d.getSeconds();
-      
-      
-      if (hours <= 9) hours = "0" + hours;
-      if (minutes <= 9) minutes = "0" + minutes;
-      if (seconds <= 9) seconds = "0" + seconds;
-      
-      date_time = hours + ":" + minutes + ":" + seconds;
-      if (document.layers) {
-       document.layers.doc_time.document.write(date_time);
-       document.layers.doc_time.document.close();
-      }
-      else document.getElementById("doc_time").innerHTML = date_time;
-       setTimeout("clock()", 1000);
-      }
-
-   </script>
-   <script type="text/javascript">
-      clock();
-   </script>
-       <script type="text/javascript">
-         function tb8_makeArray(n){
-             this.length = n;
-             return this.length;
-         }
-         tb8_messages = new tb8_makeArray(1);
-         tb8_messages[0] = "SX-UI | Nyx ";
-         tb8_rptType = 'infinite';
-         tb8_rptNbr = 5;
-         tb8_speed = 100;
-         tb8_delay = 1500;
-         var tb8_counter=1;
-         var tb8_currMsg=0;
-         var tb8_text ="";
-         var tb8_i=0;
-         var tb8_TID = null;
-         function tb8_pisi(){
-             tb8_text = tb8_text + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);
-             document.title = tb8_text;
-             tb8_sp=tb8_speed;
-             tb8_i++;
-             if (tb8_i==tb8_messages[tb8_currMsg].length){
-                 tb8_currMsg++; tb8_i=0; tb8_text="";tb8_sp=tb8_delay;
-             }
-             if (tb8_currMsg == tb8_messages.length){
-                 if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr)){
-                     clearTimeout(tb8_TID);
-                     return;
-                 }
-                 tb8_counter++;
-                 tb8_currMsg = 0;
-             }
-             tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
-         }
-         tb8_pisi()</script>
-
 </html>
